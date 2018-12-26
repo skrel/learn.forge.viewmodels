@@ -1,4 +1,8 @@
-# learn.forge.viewmodels
+# edu.learn.forge.viewmodels
+
+Added 5 buttons "Build of Material", "Start", "Pause", "Complete", "Delivered" for tracking purposes.
+
+![assmbly2](https://user-images.githubusercontent.com/43278778/50455020-57992f00-0919-11e9-8250-eab80435522f.jpg)
 
 # Description
 
