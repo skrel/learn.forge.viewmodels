@@ -6,7 +6,67 @@ Added 5 buttons "Build of Material", "Start", "Pause", "Complete", "Delivered" f
 
 # Description
 
-This sample is part of the [Learn Forge](http://learnforge.autodesk.io) tutorials.
+Originaly this sample is a part of the [Learn Forge](http://learnforge.autodesk.io) tutorials.
+
+# Modifications index.html
+
+    <!-- Button Style -->
+    <style>
+        .header {
+            padding: 20px;
+            background: #1abc9c;
+        }
+        .btn {
+            border: none;
+            color: white;
+            padding: 2px 22px;
+            font-size: 16px;
+            cursor: pointer;
+            width: 200px;
+        }
+        .green {
+            background-color: #4CAF50;
+        }
+            .green:hover {
+                background-color: #46a049;
+            }
+        .blue {
+            background-color: #2196F3;
+        }
+            .blue:hover {
+                background: #0b7dda;
+            }
+        .orange {
+            background-color: #ff9800;
+        }
+            .orange:hover {
+                background: #e68a00;
+            }
+        .grey {
+            background-color: #d9d9d9;
+        }
+        .grey:hover {
+            background: white;
+        }
+        .red {
+            background-color: #ff0066;
+        }
+            .red:hover {
+                background: #e68a00;
+            }
+        body {
+            background-color: black;
+        }
+    </style>
+    
+        <!-- New buttons -->>
+    <center>
+        <button class="btn grey" onclick="getElementById('demo1').innerHTML=Date()">Build Of Material</button>
+        <button class="btn green" onclick="getElementById('demo1').innerHTML=Date()">Start</button>
+        <button class="btn blue" onclick="getElementById('demo2').innerHTML=Date()">Pause</button>
+        <button class="btn orange" onclick="getElementById('demo3').innerHTML=Date()">Complete</button>
+        <button class="btn red" onclick="getElementById('demo1').innerHTML=Date()">Delivered</button>
+     </center>
 
 ### Languages
 
