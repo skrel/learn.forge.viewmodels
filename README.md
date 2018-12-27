@@ -7,6 +7,13 @@ Added 5 buttons "Build of Material", "Start", "Pause", "Complete", "Delivered" f
 # Description
 
 Originaly this sample is a part of the [Learn Forge](http://learnforge.autodesk.io) tutorials.
+The `master` branch contains the client-side UI: `html`, `js` and `css` files. To download the project for each language, please use:
+
+- [Nodejs](//github.com/Autodesk-Forge/learn.forge.viewmodels/tree/nodejs)
+- [.NET](//github.com/Autodesk-Forge/learn.forge.viewmodels/tree/net)
+- [Go](//github.com/Autodesk-Forge/learn.forge.viewmodels/tree/go)
+- [PHP](//github.com/Autodesk-Forge/learn.forge.viewmodels/tree/php)
+- [Java](//github.com/Autodesk-Forge/learn.forge.viewmodels/tree/java)
 
 # Modifications index.html
 
@@ -59,6 +66,8 @@ Originaly this sample is a part of the [Learn Forge](http://learnforge.autodesk.
         }
     </style>
     
+    AND
+    
         <!-- New buttons -->>
     <center>
         <button class="btn grey" onclick="getElementById('demo1').innerHTML=Date()">Build Of Material</button>
@@ -67,13 +76,3 @@ Originaly this sample is a part of the [Learn Forge](http://learnforge.autodesk.
         <button class="btn orange" onclick="getElementById('demo3').innerHTML=Date()">Complete</button>
         <button class="btn red" onclick="getElementById('demo1').innerHTML=Date()">Delivered</button>
      </center>
-
-### Languages
-
-The `master` branch contains the client-side UI: `html`, `js` and `css` files. To download the project for each language, please use:
-
-- [Nodejs](//github.com/Autodesk-Forge/learn.forge.viewmodels/tree/nodejs)
-- [.NET](//github.com/Autodesk-Forge/learn.forge.viewmodels/tree/net)
-- [Go](//github.com/Autodesk-Forge/learn.forge.viewmodels/tree/go)
-- [PHP](//github.com/Autodesk-Forge/learn.forge.viewmodels/tree/php)
-- [Java](//github.com/Autodesk-Forge/learn.forge.viewmodels/tree/java)
